@@ -64,14 +64,6 @@ const env: Record<keyof Config, undefined | string> = {
 
 // loads from different locations, in order: environment (VITE_{KEY}), window (public/config.js)
 function getKeyValue(key: keyof Config): string | undefined {
-  let envValue = env[key];
-  if (
-    envValue !== null &&
-    envValue !== undefined &&
-    envValue.length > 0
-  )
-    return envValue;
-
   let windowValue = (window as any)?.__CONFIG__?.[`VITE_${key}`];
   if (
     windowValue !== null &&
@@ -79,8 +71,11 @@ function getKeyValue(key: keyof Config): string | undefined {
     windowValue.length === 0
   )
     windowValue = undefined;
+  return env[key] ?? windowValue ?? undefined;
+}
 
-  return windowValue ?? undefined;
+function getKey(key: keyof Config, defaultString?: string): string {
+  return getKeyValue(key)?.toString() ?? defaultString ?? "";
 }
 
 export function conf(): RuntimeConfig {

@@ -77,23 +77,15 @@ function coerceUndefined(value: string | null | undefined): string | undefined {
 
 // loads from different locations, in order: environment (VITE_{KEY}), window (public/config.js)
 function getKeyValue(key: keyof Config): string | undefined {
-  let envValue = env[key];
-  if (
-    envValue !== null &&
-    envValue !== undefined &&
-    envValue.length > 0
-  )
-    return envValue;
+  const windowValue = (window as any)?.__CONFIG__?.[`VITE_${key}`];
 
-  let windowValue = (window as any)?.__CONFIG__?.[`VITE_${key}`];
-  if (
-    windowValue !== null &&
-    windowValue !== undefined &&
-    windowValue.length === 0
-  )
-    windowValue = undefined;
+  return coerceUndefined(env[key]) ?? coerceUndefined(windowValue) ?? undefined;
+}
 
-  return windowValue ?? undefined;
+function getKey(key: keyof Config): string | null;
+function getKey(key: keyof Config, defaultString: string): string;
+function getKey(key: keyof Config, defaultString?: string): string | null {
+  return getKeyValue(key)?.toString() ?? defaultString ?? null;
 }
 
 export function conf(): RuntimeConfig {

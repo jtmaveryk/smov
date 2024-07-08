@@ -10,7 +10,6 @@ import { Icons } from "@/components/Icon";
 import { SectionHeading } from "@/components/layout/SectionHeading";
 import { MediaGrid } from "@/components/media/MediaGrid";
 import { WatchedMediaCard } from "@/components/media/WatchedMediaCard";
-import { Button } from "@/pages/About";
 import { SearchLoadingPart } from "@/pages/parts/search/SearchLoadingPart";
 import { MediaItem } from "@/utils/mediaTypes";
 

@@ -12,7 +12,6 @@ import {
 import { convertLegacyUrl, isLegacyUrl } from "@/backend/metadata/getmeta";
 import { generateQuickSearchMediaUrl } from "@/backend/metadata/tmdb";
 import { useOnlineListener } from "@/hooks/usePing";
-import { AboutPage } from "@/pages/About";
 import { AdminPage } from "@/pages/admin/AdminPage";
 import VideoTesterView from "@/pages/developer/VideoTesterView";
 import { Discover } from "@/pages/Discover";
@@ -25,7 +24,6 @@ import { OnboardingPage } from "@/pages/onboarding/Onboarding";
 import { OnboardingExtensionPage } from "@/pages/onboarding/OnboardingExtension";
 import { OnboardingProxyPage } from "@/pages/onboarding/OnboardingProxy";
 import { RegisterPage } from "@/pages/Register";
-import { SupportPage } from "@/pages/Support";
 import { Layout } from "@/setup/Layout";
 import { useHistoryListener } from "@/stores/history";
 import { LanguageProvider } from "@/stores/language";
@@ -138,7 +136,6 @@ function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/register" element={<RegisterPage />} />
           <Route path="/login" element={<LoginPage />} />
-          <Route path="/about" element={<AboutPage />} />
           <Route path="/onboarding" element={<OnboardingPage />} />
           <Route
             path="/onboarding/extension"
@@ -148,8 +145,6 @@ function App() {
           {shouldHaveDmcaPage() ? (
             <Route path="/dmca" element={<DmcaPage />} />
           ) : null}
-          {/* Support page */}
-          <Route path="/support" element={<SupportPage />} />
           {/* Discover page */}
           <Route path="/discover" element={<Discover />} />
           {/* Settings page */}

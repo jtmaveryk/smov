@@ -1,13 +1,13 @@
 {
   "about": {
-    "description": "sudo-flix is a fork of movie-web that is ensured to stay up even after the shutdown of movie-web.app. sudo-flix.lol runs on a private, self-hosted VPS. I run this site at a loss; there are no ads due to my beliefs in free media.",
+    "description": "airplo-stream is a fork of movie-web that is ensured to stay up even after the shutdown of movie-web.aairplo-streamo-stream.lol runs on a private, self-hosted VPS. I run this site at a loss; there are no ads due to my beliefs in free media.",
     "faqTitle": "Common questions",
     "q1": {
-      "body": "sudo-flix does not host any content. When you click on something to watch, the internet is searched for the selected media (On the loading screen and in the 'video sources' tab you can see which source you're using). Media never gets uploaded by sudo-flix, everything is through this searching mechanism.",
+      "body": "airplo-stream does not host any content. When you click on something to watch, the internet is searched for the selected media (On the loading screen and in the 'video sources' tab you can see which source you're using). Media never gets uploadedairplo-streamo-stream, everything is through this searching mechanism.",
       "title": "Where does the content come from?"
     },
     "q2": {
-      "body": "It's not possible to request a show or movie, sudo-flix does not manage any content. All content is viewed through sources on the internet.",
+      "body": "It's not possible to request a show or movie, airplo-stream does not manage any content. All content is viewed through sources on the internet.",
       "title": "Where can I request a show or movie?"
     },
     "q3": {
@@ -19,10 +19,10 @@
       "title": "What about my data and stuff?"
     },
     "q5": {
-      "body": "Well sudo-flix has a twitter account that can be found in the footer of this page as well as a link to the source code on Github.",
+      "body": "Well airplo-stream has a twitter account that can be found in the footer of this page as well as a link to the source code on Github.",
       "title": "How can I find out more?"
     },
-    "title": "About sudo-flix (^▽^)"
+    "title": "About airplo-stream (^▽^)"
   },
   "actions": {
     "copied": "Copied",
@@ -46,7 +46,7 @@
       "passphrasePlaceholder": "Passphrase",
       "submit": "Login",
       "title": "Login to your account",
-      "validationError": "Incorrect or incomplete passphrase /ᐠ. .ᐟ\\"
+      "validationError": "Incorrect or incomplete passphrase"
     },
     "register": {
       "information": {
@@ -89,8 +89,8 @@
   },
   "footer": {
     "legal": {
-      "disclaimer": "Disclaimer ◝(ᵔᵕᵔ)◜",
-      "disclaimerText": "Please note: sudo-flix does not host any files itself but instead only display's content from 3rd party providers. Legal issues should be taken up with them."
+      "disclaimer": "Disclaimer",
+      "disclaimerText": "Please note: airplo-stream does not host any files itself but instead only display's content from 3rd party providers. Legal issues should be taken up with them."
     },
     "links": {
       "discord": "Discord",
@@ -98,10 +98,10 @@
       "github": "GitHub",
       "twitter": "Twitter"
     },
-    "tagline": "Watch your favorite shows and movies for free with no ads ever! (っ'ヮ'c)"
+    "tagline": "Watch your favorite shows and movies for free with no ads ever!"
   },
   "global": {
-    "name": "sudo-flix",
+    "name": "airplo-stream",
     "pages": {
       "about": "About",
       "dmca": "DMCA",
@@ -109,7 +109,7 @@
       "support": "Support",
       "login": "Login",
       "onboarding": "Setup",
-      "pagetitle": "{{title}} - sudo-flix",
+      "pagetitle": "{{title}} - airplo-stream",
       "register": "Register",
       "settings": "Settings"
     }
@@ -135,12 +135,11 @@
           "What are you in the mood for?",
           "Should we delete your browser history?",
           "What do you want to stream?",
-          "Sudo-Flix is the best site ever!",
+          "airplo-stream is the best site ever!",
           "What's on your watchlist today?",
           "How was your day?",
           "My bad the site never works...",
-          "Isn't sudo-flix just the best?",
-          ">ᴗ<"
+          "Isn't airplo-stream just the best?",
         ]
       },
       "empty": {
@@ -160,23 +159,20 @@
       "day": {
         "default": "What would you like to watch this afternoon?",
         "extra": ["Have you seen Blazing Saddles?"],
-        "extra": ["Welcome to Sudo-Flix!"],
-        "extra": [" /ᐠ>ヮ<ᐟ\\ฅ"],
-        "extra": ["Viva la sudo-flix!"]
+        "extra": ["Welcome to airplo-stream!"],
+        "extra": ["Viva la airplo-stream!"]
       },
       "morning": {
         "default": "What would you like to watch this morning?",
         "extra": ["Can't go wrong with Friends"],
         "extra": ["I hear The Expanse is popular"],
-        "extra": ["\"૮₍  ˶•⤙•˶ ₎ა"],
-        "extra": ["Viva la sudo-flix!"]
+        "extra": ["Viva la airplo-stream!"]
       },
       "night": {
         "default": "What would you like to watch tonight?",
         "extra": ["Rick & Morty is great with friends!"],
         "extra": ["Go smoke and watch The Simpsons!"],
-        "extra": ["(づ ᴗ _ᴗ)づ♡"],
-        "extra": ["Viva la sudo-flix!"]
+        "extra": ["Viva la airplo-stream!"]
       },
       "420": {
         "default": "What would you like to watch this 4/20?",
@@ -213,13 +209,13 @@
     "badge": "Not found",
     "goHome": "Back to home",
     "reloadButton": "Try again",
-    "message": "We looked everywhere: under the bins, in the closet, behind the proxy but ultimately couldn't find the page you are looking for. (ಥ﹏ಥ)",
+    "message": "We looked everywhere: under the bins, in the closet, behind the proxy but ultimately couldn't find the page you are looking for.",
     "title": "Couldn't find that page"
   },
   "downtimeNotice": {
     "badge": "Issues",
     "goHome": "Go home",
-    "message": "sudo-flix.lol is experiencing issues with some providers again, if you cant find or play a show please change the source. Expect this error to persist throughout the below times.",
+    "message": "airplo-stream.lol is experiencing issues with some providers again, if you cant find or play a show please change the source. Expect this error to persist throughout the below times.",
     "timeFrame": "<bold>March 31th 11:00 PM - 5:00 AM EST</bold>",
     "title": "Provider issues"
   },
@@ -227,7 +223,7 @@
     "defaultConfirm": {
       "cancel": "Cancel",
       "confirm": "Use default setup",
-      "description": "The default setup does not have the best streams and can be unbearably slow. ( ͠° ͟ʖ ͡°)",
+      "description": "The default setup does not have the best streams and can be unbearably slow.",
       "title": "Are you sure?"
     },
     "extension": {
@@ -240,7 +236,7 @@
       "notDetecting": "Installed on Chrome, but the site isn't detecting it? Try reloading the page!",
       "notDetectingAction": "Reload page",
       "status": {
-        "disallowed": "Extension is not enabled for this page (,,>﹏<,,)",
+        "disallowed": "Extension is not enabled for this page",
         "disallowedAction": "Enable extension",
         "failed": "Failed to request status",
         "loading": "Waiting for you to install the extension",
@@ -268,7 +264,7 @@
       "explainer": "To get the best streams possible, you will need to choose which streaming method you want to use.",
       "options": {
         "default": {
-          "text": "I don't want good quality streams,<0 /> <1>use the default setup ▄︻デ══━一 ʕ•͡-•ʔ</1>"
+          "text": "I don't want good quality streams,<0 /> <1>use the default setup</1>"
         },
         "extension": {
           "action": "Install extension",
@@ -283,7 +279,7 @@
           "title": "Custom proxy"
         }
       },
-      "title": "Let's get you setup with sudo-flix 🥳"
+      "title": "Let's get you setup with airplo-stream 🥳"
     }
   },
   "overlays": {
@@ -299,11 +295,11 @@
     },
     "menus": {
       "downloads": {
-        "disclaimer": "Downloads are taken directly from the provider. sudo-flix does not have control over how the downloads are provided.",
+        "disclaimer": "Downloads are taken directly from the provider. airplo-stream does not have control over how the downloads are provided.",
         "copyHlsPlaylist": "Copy HLS playlist link",
         "downloadSubtitle": "Download current subtitle",
         "downloadVideo": "Download video",
-        "hlsDisclaimer": "Downloads are taken directly from the provider. sudo-flix does not have control over how the downloads are provided.<br /><br />Please note you are downloading an HLS playlist, <bold>it is not recommended to download if you are not familiar with advanced streaming formats</bold>. Try different sources for different formats.",
+        "hlsDisclaimer": "Downloads are taken directly from the provider. airplo-stream does not have control over how the downloads are provided.<br /><br />Please note you are downloading an HLS playlist, <bold>it is not recommended to download if you are not familiar with advanced streaming formats</bold>. Try different sources for different formats.",
         "onAndroid": {
           "1": "To download on Android, click the download button then, on the new page, <bold>tap and hold</bold> on the video, then select <bold>save</bold>.",
           "shortTitle": "Download / Android",
@@ -362,7 +358,7 @@
           "title": "No embeds found"
         },
         "noStream": {
-          "text": "This source has no streams for this movie or show. /ᐠ - ˕ -マ Ⳋ",
+          "text": "This source has no streams for this movie or show.",
           "title": "No stream :("
         },
         "title": "Sources",
@@ -398,7 +394,7 @@
       "extensionPermission": {
         "badge": "Permission Missing",
         "button": "Use extension",
-        "text": "You have the browser extension, but we need your permission to get started using the extension. (¬_¬)",
+        "text": "You have the browser extension, but we need your permission to get started using the extension.",
         "title": "Configure the extension"
       },
       "failed": {
@@ -435,7 +431,7 @@
     "scraping": {
       "items": {
         "failure": "Error occurred",
-        "notFound": "Doesn't have the video (╥﹏╥)",
+        "notFound": "Doesn't have the video",
         "pending": "Checking for videos..."
       },
       "notFound": {
@@ -451,7 +447,7 @@
         "homeButton": "Go home",
         "enableExtension": "Enable extension",
         "title": "Please enable the extension",
-        "text": "You've installed the sudo-flix extension. To start using it, you need to enable the extension for this site."
+        "text": "You've installed the airplo-stream extension. To start using it, you need to enable the extension for this site."
       }
     },
     "time": {
@@ -461,7 +457,7 @@
       "shortRemaining": "-{{timeLeft}}"
     },
     "turnstile": {
-      "description": "Please prove your humanity by completing the quick challenge, this is to keep sudo-flix safe.",
+      "description": "Please prove your humanity by completing the quick challenge, this is to keep airplo-stream safe.",
       "error": "Failed to verify your humanity! Please try again.",
       "title": "Are You a Robot 🤖?",
       "verifyingHumanity": "Verifying your humanity... (^▽^)👍"
@@ -469,9 +465,9 @@
   },
   "support": {
     "title": "Support",
-    "text": "sudo-flix is designed to be as user-friendly as possible. However, people still have questions and issues. This page is here to help resolve these shortcomings",
+    "text": "airplo-stream is designed to be as user-friendly as possible. However, people still have questions and issues. This page is here to help resolve these shortcomings",
     "q1": {
-      "body": "Well, you can join the official <0>sudo-flix discord</0> and ask questions there or you can email the one provided at the bottom of this page.",
+      "body": "Well, you can join the official <0>airplo-stream discord</0> and ask questions there or you can email the one provided at the bottom of this page.",
       "title": "Where can I get help?"
     },
     "q2": {
@@ -481,7 +477,7 @@
   },
   "screens": {
     "dmca": {
-      "text": "Welcome to sudo-flix's DMCA contact page. If you believe your copyrighted work has been improperly used on our platform (😢), please send a detailed DMCA notice to: <bold>{{dmca}}</bold> below. Please include a description of the copyrighted material, your contact details, and a statement of good faith belief. We're committed to resolving these matters promptly and appreciate your cooperation.",
+      "text": "Welcome to airplo-stream's DMCA contact page. If you believe your copyrighted work has been improperly used on our platform (😢), please send a detailed DMCA notice to: <bold>{{dmca}}</bold> below. Please include a description of the copyrighted material, your contact details, and a statement of good faith belief. We're committed to resolving these matters promptly and appreciate your cooperation.",
       "title": "DMCA :("
     },
     "loadingApp": "Loading application",
@@ -508,14 +504,14 @@
       },
       "admin": {
         "title": "Admin panel",
-        "text": "Utilize tools made for testing sudo-flix's condition.",
+        "text": "Utilize tools made for testing airplo-stream's condition.",
         "button": "Check it out"
       },
       "actions": {
         "delete": {
           "button": "Delete account",
           "confirmButton": "Delete account",
-          "confirmDescription": "Are you sure you want to delete your account? All your data will be lost! ૮₍˶Ó﹏Ò ⑅₎ა",
+          "confirmDescription": "Are you sure you want to delete your account? All your data will be lost!",
           "confirmTitle": "Are you sure?",
           "text": "This action is irreversible. All data will be deleted and nothing can be recovered.",
           "title": "Delete account"
@@ -537,7 +533,7 @@
       },
       "register": {
         "cta": "Get started",
-        "text": "Share your watch progress between devices and keep them synced. ( ̧⸝⸝⍢⸝⸝)ෆ",
+        "text": "Share your watch progress between devices and keep them synced.",
         "title": "Sync to the cloud"
       },
       "title": "Account"
@@ -586,7 +582,7 @@
       "workers": {
         "addButton": "Add new worker",
         "description": "To make the application function, all traffic is routed through proxies. Enable this if you want to bring your own workers. <0>Instructions.</0>",
-        "emptyState": "No workers yet (｡•́︿•̀｡), add one below",
+        "emptyState": "No workers yet, add one below",
         "label": "Use custom proxy workers",
         "urlLabel": "Worker URLs",
         "urlPlaceholder": "https://"
@@ -630,6 +626,6 @@
       "title": "Subtitles",
       "textBoldLabel": "Bold text"
     },
-    "unsaved": "You have unsaved changes... ฅ^•ﻌ•^ฅ"
+    "unsaved": "You have unsaved changes..."
   }
 }

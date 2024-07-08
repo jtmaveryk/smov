@@ -7,7 +7,6 @@ import { WideContainer } from "@/components/layout/WideContainer";
 import { useDebounce } from "@/hooks/useDebounce";
 import { useRandomTranslation } from "@/hooks/useRandomTranslation";
 import { useSearchQuery } from "@/hooks/useSearchQuery";
-import { Button } from "@/pages/About";
 import { HomeLayout } from "@/pages/layouts/HomeLayout";
 import { BookmarksPart } from "@/pages/parts/home/BookmarksPart";
 import { HeroPart } from "@/pages/parts/home/HeroPart";
